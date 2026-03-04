@@ -27,6 +27,7 @@ A brief overview of the `src/` directory layout:
 ## Installation & Development
 
 ### Prerequisites
+
 - [Rust](https://www.rust-lang.org/tools/install) (Edition 2021)
 - [Trunk](https://trunkrs.dev/) (WASM application bundler)
 - The WebAssembly compile target (`wasm32-unknown-unknown`)
@@ -34,27 +35,33 @@ A brief overview of the `src/` directory layout:
 ### Setup and Running Locally
 
 1. Install the WASM target:
+
    ```bash
    rustup target add wasm32-unknown-unknown
    ```
 
 2. Install Trunk:
+
    ```bash
    cargo install trunk
    ```
 
 3. Start the development server:
+
    ```bash
    trunk serve
    ```
+
    The application will be available at [http://127.0.0.1:8080](http://127.0.0.1:8080).
 
 ### Building for Production
 
 To create a release bundle optimized for size and speed:
+
 ```bash
 trunk build --release
 ```
+
 The output will be placed in the `dist/` folder.
 
 ## Usage
@@ -73,18 +80,21 @@ The output will be placed in the `dist/` folder.
 ## Contributing
 
 Contributions are welcome.
+
 1. Fork the repository and create a new feature branch.
 2. Ensure you format the code properly and run all tests before submitting.
 3. Open a Pull Request outlining your changes clearly.
+
 *(Note: A formal `CONTRIBUTING.md` is not currently defined, so standard open-source conventions apply.)*
 
 ## License
 
-Not defined. Please refer to the repository owner or check the code repository for further licensing information.
+This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
 The static clinical logic and dosing data references are sourced from:
+
 - BNF for Children 2023-2024
 - Harriet Lane Handbook, 22nd Edition
 - Thai Pediatric Formulary 2023
