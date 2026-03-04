@@ -20,8 +20,8 @@ rustup target add wasm32-unknown-unknown
 # 3. Install Trunk
 # We can download the pre-compiled binary for faster CI builds
 TRUNK_VERSION="v0.21.4"
-curl -fsSLO https://github.com/trunk-rs/trunk/releases/download/${TRUNK_VERSION}/trunk-x86_64-unknown-linux-gnu.tar.gz
-tar -xzf trunk-x86_64-unknown-linux-gnu.tar.gz
+curl -fsSLO https://github.com/trunk-rs/trunk/releases/download/${TRUNK_VERSION}/trunk-x86_64-unknown-linux-musl.tar.gz
+tar -xzf trunk-x86_64-unknown-linux-musl.tar.gz
 mkdir -p "$CARGO_HOME/bin"
 mv trunk "$CARGO_HOME/bin/"
 
