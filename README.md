@@ -79,13 +79,7 @@ The output will be placed in the `dist/` folder.
 
 ## Contributing
 
-Contributions are welcome.
-
-1. Fork the repository and create a new feature branch.
-2. Ensure you format the code properly and run all tests before submitting.
-3. Open a Pull Request outlining your changes clearly.
-
-*(Note: A formal `CONTRIBUTING.md` is not currently defined, so standard open-source conventions apply.)*
+Contributions are welcome. Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## License
 
